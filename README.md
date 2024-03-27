@@ -1,9 +1,9 @@
-**Docker:**
+**Docker :**
 
 <code>docker init</code> - pre-generated docker files <br>
 <code>docker compose watch</code> - watch the service/container of an app <br>
 
-**Images:**
+**Images :**
 
 <code>docker images</code> - list all images <br>
 <code>docker build -t [image_name] .</code> - create an image from dockerfile <br>
@@ -24,29 +24,29 @@
 <code>docker logs [container_id]</code> - view container logs <br>
 <code>docker inspect [container_id]</code> - inspect details of a container <br>
 
-**Flags:**
+**Flags :**
 
--n - named container
--f - forcefully remove
--a - list all containers
--it - run the container in interactive mode
--p - for exposing port
--v - volumes for store/mount data
+-n - named container <br>
+-f - forcefully remove <br>
+-a - list all containers <br>
+-it - run the container in interactive mode <br>
+-p - for exposing port <br>
+-v - volumes for store/mount data <br>
 
-**Volumes:**
+**Volumes :**
 <code>docker volume ls</code> - list all volumes <br>
 <code>docker create volume [volume_name]</code> - create a named volume <br>
 <code>docker volume rm [volume_name]</code> - remove a volume <br>
 <code>docker volume inspect [volume_name]</code> - inspect details of a volume <br>
 
-**Networks:**
+**Networks :**
 <code>docker network ls</code> - list all networks <br>
 <code>docker network inspect [network_name]</code> - inspect details of a network <br>
 <code>docker create network [network_name]</code> - create a user-defined bridge network <br>
 <code>docker connect network [network_name] [container_name]</code> - connect a container to a network <br>
 <code>docker disconnect network [network_name] [container_name]</code> - disconnect a container from a network <br>
 
-**Docker Compose:**
+**Docker Compose :**
 
 <code>docker compose ps</code> - list containers for specific docker compose project <br>
 <code>docker compose up</code> - create and start containers <br>
@@ -55,6 +55,6 @@
 <code>docker compose watch</code> - watch services <br>
 <code>docker compose logs</code> - view logs for services <br>
 
-**Security:**
+**Security :**
 
 <code>docker scout</code> - find vulnerabilities in services <br>

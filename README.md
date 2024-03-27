@@ -34,12 +34,14 @@
 -v - volumes for store/mount data <br>
 
 **Volumes :**
+
 <code>docker volume ls</code> - list all volumes <br>
 <code>docker create volume [volume_name]</code> - create a named volume <br>
 <code>docker volume rm [volume_name]</code> - remove a volume <br>
 <code>docker volume inspect [volume_name]</code> - inspect details of a volume <br>
 
 **Networks :**
+
 <code>docker network ls</code> - list all networks <br>
 <code>docker network inspect [network_name]</code> - inspect details of a network <br>
 <code>docker create network [network_name]</code> - create a user-defined bridge network <br>

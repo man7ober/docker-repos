@@ -1,0 +1,11 @@
+# start container
+
+$ docker compose up
+
+# stop container
+
+$ docker compose down
+
+# change code during runtime
+
+$ docker compose watch

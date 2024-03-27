@@ -1,0 +1,7 @@
+# build image
+
+$ docker build -t hello-docker .
+
+# run container
+
+$ docker run hello-docker

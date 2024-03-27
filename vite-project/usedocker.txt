@@ -1,0 +1,7 @@
+# starting container
+
+$ docker compose up 
+
+# stopping container
+
+$ docker compose down

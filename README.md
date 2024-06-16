@@ -57,17 +57,17 @@
 
 **Flags :**
 
--n - named container
+- n - named container
 
--f - forcefully remove
+- f - forcefully remove
 
--a - list all containers
+- a - list all containers
 
--it - run the container in interactive mode
+- it - run the container in interactive mode
 
--p - for exposing port
+- p - for exposing port
 
--v - volumes for store/mount data
+- v - volumes for store/mount data
 
 
 **Volumes :**
